@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class maindatawarga {
-    public static void main_warga (String[] args) {
+    public static void maindatawarga(String[] args) {
         Scanner sc = new Scanner(System.in);
         Integer pilihan = 0;
         
@@ -16,7 +16,7 @@ public class maindatawarga {
         pilihan = sc.nextInt();
         System.out.println();
         
-        datawargalebak n = new datawargalebak();
+        datawarga n = new datawarga();
         
         if (pilihan == 1){
             n.warga1();
